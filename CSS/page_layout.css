@@ -1,0 +1,20 @@
+/* Page Layout */
+#page-layout .page-layout-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+#home-posts {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+}
+
+#additional-info {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 3; 
+
+}
+
+

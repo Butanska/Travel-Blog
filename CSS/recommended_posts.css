@@ -1,0 +1,11 @@
+#recommended .recommended_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+}
+
+#recommended .recommended_container h4 {
+  grid-column: 1 / span 3;
+  font-size: 1.2rem;
+  padding-bottom: 0;
+}

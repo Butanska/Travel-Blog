@@ -1,0 +1,292 @@
+@import "navbar.css";
+@import "showcase.css";
+@import "page_layout.css";
+@import "older_posts.css";
+@import "aside.css";
+@import "footer.css";
+@import "blog_page_container.css";
+@import "response_form.css";
+@import "recommended_posts.css";
+@import "sub_header.css";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  padding: 1rem 0;
+}
+
+h3 {
+  padding: 0.5rem 0;
+}
+
+/* Utility */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.category {
+  display: inline-block;
+  color: #e0ffff;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #284747;
+  color: #e0ffff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #254242;
+  cursor: pointer;
+}
+
+.category-italy { background: #008b8b;}
+.category-spain { background: #dc143c;}
+.category-portugal { background: #00ced1; }
+.category-ireland { background: #00008b;}
+
+.card {
+  background: #e0ffff;
+  padding: 1rem;
+}
+
+.card a:hover {
+  color: #008080;
+}
+
+.description {
+  font-style: italic;
+  font-weight: bold;
+  color: #284747;
+  padding-bottom: 1rem;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.l-font {
+  font-size: 2rem;
+}
+
+blockquote {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: #f4f4f4;
+}
+
+.quotation {
+  quotes: "„" "“" "‚" "‘";
+}
+
+/* Navbar
+
+#main-nav {
+  background: #087e8b;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#main-nav .container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  padding: 1rem;
+  align-items: center;
+}
+
+#main-nav .container h1 {
+  color: #e0ffff;
+}
+
+#main-nav span {
+  color: #333;
+  font-style: italic;
+}
+
+#main-nav .container ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#main-nav .container ul li a {
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+  font-weight: bold;
+}
+
+#main-nav .container ul li a.current {
+  background: #afeeee;
+  color: #333;
+  border-radius: 5px;
+}
+
+#main-nav .container ul li a:hover {
+  background: #afeeee;
+  border-radius: 5px;
+} */
+
+/* Latest Post */
+/* #showcase {
+  color: #e0ffff;
+  background: #333;
+  padding: 2rem;
+  position: relative;
+}
+
+#showcase:before {
+  content: '';
+  background: url('../Img/Venice.jpg') no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+#showcase .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#showcase .showcase-content {
+  z-index: 1;
+}
+
+#showcase .showcase-content p {
+  margin-bottom: 1rem;
+} */
+
+/* Page Layout */
+/* #page-layout .page-layout-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+#home-posts {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+}
+
+#additional-info {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 3;
+
+} */
+
+/* Older Posts */
+
+/* #home-posts .articles-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+} */
+
+/* Aside */
+
+/* #additional-info .additional-info-container {
+  display: grid;
+  grid-gap: 1rem;
+} */ 
+
+/* About the author */
+
+/* #additional-info img {
+  border-radius: 50%;
+} */
+
+/* Categories */
+
+/* #additional-info ul li {
+  border-bottom: #5f9ea0 dotted 1px;
+} */
+
+/* Social Media */
+/* .social {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+} */
+
+/* Footer */
+/* #main-footer {
+  background: #087e8b;
+  color: #000;
+  text-align: center;
+}
+#main-footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+#main-footer .footer-container p {
+  line-height: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+#main-footer .footer-container input[type='email'] {
+  width: 60%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input[type='submit'] {
+  width: 30%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#main-footer .copywright p {
+margin-top: 0.5rem;
+} */

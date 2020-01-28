@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <meta name="description" content="A travel blog that leads you on a journey to explore the world one city at a time">
+  <meta name="keywords" content="travel, travel blog, italy, portugal, europe, places to visit">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+  <title>Exploring The World</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="main-nav">
+    <div class="container">
+      <h1 class="title">
+        <!-- <a href="index.html"><i class="fas fa-globe-europe"></i> Exploring The World</a> -->
+        <i class="fas fa-globe-europe"></i> Exploring The World <span> one city at a time</span>
+      </h1>
+      <ul>
+        <li><a class="current" href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="blog_post.html">Posts</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Latest Post -->
+  <header id="showcase">
+    <div class="container">
+      <div class="showcase-container">
+        <div class="showcase-content">
+          <div class="category category-italy">Italy</div>
+          <h2>The Venice Files</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rerum officia quibusdam mollitia deserunt animi soluta laudantium. Quam sapiente a dolorum magnam necessitatibus quis tempore facere totam. Dolor, sequi distinctio!</p>
+          <a href="blog-post.html" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </header>
+    
+  <!-- Page Layout -->
+  <div id="page-layout">
+    <div class="page-layout-container">
+       <!-- Older Posts -->
+      <main id="home-posts">
+          <div class="container">
+            <div class="articles-container">
+                <article id="post-2" class="card">
+                  <img src="img/Amalfi.jpg" alt="Amalfi">
+                  <div class="category category-italy">Italy</div>
+                  <h3>
+                    <a href="#">Lost In Costiera Amalfitana</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam eius ducimus optio veniam sit nihil beatae ea autem. Doloribus.</p>
+                </article>
+
+                <article id="post-3" class="card">
+                  <img src="img/barcelona-2.jpg" alt="Barcelona">
+                  <div class="category category-spain">Spain</div>
+                  <h3>
+                    <a href="#">The Million Faces Of Barcelona</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam eius ducimus optio veniam sit nihil beatae ea autem. Doloribus.</p>
+                </article>
+
+                <article id="post-4" class="card">
+                  <img src="img/Lisbon.jpg" alt="Lisbon">
+                  <div class="category category-portugal">Portugal</div>
+                  <h3>
+                    <a href="#">From Lisbon To Algarve</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam eius ducimus optio veniam sit nihil beatae ea autem. Doloribus.</p>
+                </article>
+                
+                <article id="post-5" class="card">
+                  <img src="img/Dublin.jpg" alt="Dublin">
+                  <div class="category category-ireland">Ireland</div>
+                  <h3>
+                    <a href="#">Exploring Dublin</a>
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam eius ducimus optio veniam sit nihil beatae ea autem. Doloribus.</p>
+                </article>  
+              </div>
+          </div>
+      </main>
+
+  <!-- Aside -->
+  <aside id="additional-info">
+    <div class="container">
+      <div class="additional-info-container">
+
+        <!-- About the author -->
+        <article class="card">
+          <img src="img/Author.jpg" alt="Author">
+          <h3>About The Author
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam eius ducimus optio veniam sit nihil beatae ea autem. Doloribus.</p>
+        </article>   
+
+        <!-- Categories -->
+        <article class="card">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Italy</a></li>
+            <li><a href="#">Portugal</a></li>
+            <li><a href="#">Ireland</a></li>
+            <li><a href="#">Spain</a></li>
+          </ul> 
+        </article>  
+         
+        <!-- Social Media -->
+        <div class="card">
+          <h3>Follow Me</h3>
+          <div class="social">
+          <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </aside>
+</div>
+</div>
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="container footer-container">
+      <div class="newsletter">
+        <h3>Subscribe To Our Newsletter</h3>
+        <p>Join our monthly newsletter and never miss out on new stories and travel tips.</p>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <input type="submit" value="Subscribe" class="btn">
+        </form>
+      </div>
+      
+      <div class="copywright">
+        <p>
+          Copyright RB &copy; 2020, All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>

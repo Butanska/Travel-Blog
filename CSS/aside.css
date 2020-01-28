@@ -1,0 +1,25 @@
+/* Aside */
+
+#additional-info .additional-info-container {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+/* About the author */
+
+#additional-info img {
+  border-radius: 50%;
+}
+
+/* Categories */
+
+#additional-info ul li {
+  border-bottom: #5f9ea0 dotted 1px;
+}
+
+/* Social Media */
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
